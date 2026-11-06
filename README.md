@@ -38,7 +38,7 @@ Copy `src/conf.ini` to `conf.local.ini`, update `[ref]`, `[snp]`, `[cg]` and `[s
 
 For a reference `hg19.fa`, `python src/genome_convert.py /path/to/hg19` generates `/path/to/hg19.tran.fa` with CT and GA contigs. This helper loads the entire genome into memory. Build its BWA index with `bwa index /path/to/hg19.tran.fa`, then configure `[ref] hg19` to this file. SNP data require chromosome-specific `<chromosome>.snp` files matching `PrepareData.load_snp`; CpG-number input additionally requires the CpG index. These datasets are not bundled. GPU mode requires `primersDB_CL`, `kernel.cl` and a compatible OpenCL runtime. No public download source or installer for primersDB/catPos is provided.
 
-The example targets illustrate input format only. Interval ends are treated as inclusive in the pipeline; BED-named outputs should not be assumed to use standard BED half-open coordinates. Results include `<order_num>.html`, `CAMPs.log` and a ZIP archive. The legacy `src/ATOPlexMethDesigner.py` entry point remains supported.
+The example targets illustrate input format only. Interval ends are treated as inclusive in the pipeline; BED-named outputs should not be assumed to use standard BED half-open coordinates. Results include `<order_num>.html`, `CAMPs.log` and a ZIP archive. 
 
 ## License
 
