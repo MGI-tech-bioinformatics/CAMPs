@@ -36,6 +36,3 @@ For a reference `hg19.fa`, `python src/genome_convert.py /path/to/hg19` generate
 
 The example targets illustrate input format only. Interval ends are treated as inclusive in the pipeline; BED-named outputs should not be assumed to use standard BED half-open coordinates. Results include `<order_num>.html`, `CAMPs.log` and a ZIP archive. 
 
-## License
-
-The original contact-based license notice is retained. No open-source license has been selected. The rights holder should choose redistribution terms before public release. External tools and datasets have their own terms. See [PUBLISHING.md](PUBLISHING.md). Full biological validation requires a complete run with external dependencies and references.
