@@ -524,7 +524,8 @@ def primer_design(opt, homo_0, ref_dic):
     logging.info(f"max threads: {opt.thread}")
     logging.info(f"true threads_count={thread}")
     p = Pool(processes=thread, initializer=gl.init_lock, initargs=(lock, lock_failed,))
-    snp_flag = 1 if opt.fasta else 0
+    #snp_flag = 1 if opt.fasta else 0
+    snp_flag = 1
     for pos in data:
         if pos[5]==0:
             #print(pos)
