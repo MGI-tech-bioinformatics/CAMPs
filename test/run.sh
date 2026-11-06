@@ -1,0 +1,1 @@
+python3 -u /home/pcr/work/CAMPs/src/CAMPs.py -i cg_pos -o cg_pos_test --amp_min 100 --amp_max 200 --window_size 75 --extend_range 170 --pos_type position  --ref_name hg19 --tm_min 54 --tm_max 62 --dis_ud_max 12 --dis_ud_min -15 --kernel CPU >CAMPs_amp200_test.log
