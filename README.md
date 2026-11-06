@@ -8,8 +8,6 @@ CAMPs designs multiplex PCR primers for bisulfite methylation targets.
 - Python 3.9+
 - Python packages in `requirements.txt`
 - `bwa` and `samtools` on `PATH`
-- The external `primersDB` executable and its database/kernel files
-- The external `catPos` executable placed in `src/` with execute permission
 - Reference, SNP and CpG index files configured in `src/conf.ini`
 
 The repository does not include genome references or the external primersDB binary. Set those paths for your environment before running a design.
